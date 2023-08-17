@@ -25,9 +25,12 @@ const pAequorFactory= (number, array) => {
       }while(newBase === this.dna[pickRandom]);
       this.dna[pickRandom] = newBase;
       return this.dna
-    } 
+    },
+    compareDNA(pAequor){
+      
     }
-    }
+  }
+}
 
 
 pAequorFactory();
